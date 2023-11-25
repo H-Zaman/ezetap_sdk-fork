@@ -3,6 +3,10 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 class EzetapSdk {
+
+  // proof it works
+
+
   static const MethodChannel _channel = MethodChannel('eze_sdk_flutter');
 
   static Future<String> initialize(json) async {
